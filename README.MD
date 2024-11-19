@@ -1,0 +1,1 @@
+# Este repositório irá servir para demonstrar as atividades e exercicios propostos na disciplina de Porgramação WEB 2, tendo o foco em FrontEnd, voltando para o framework React.js da Linguagem de programação JavaScript
