@@ -27,3 +27,4 @@ class Category{
         return `Category(${this._id}, ${this._description})`;
     }
 }
+export default Category;
