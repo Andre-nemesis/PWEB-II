@@ -1,5 +1,5 @@
 import Category from '../models/category.js';
-import categoryRepository from "../repositories/categoryRepository.js";
+import categoryRepository from "../repositories/CategoryRepository.js";
 
 export const getCategoryById = (req, res) => {
     const { id } = req.params;
