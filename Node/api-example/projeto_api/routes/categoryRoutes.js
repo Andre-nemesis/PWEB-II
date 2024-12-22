@@ -3,10 +3,10 @@ import { listCategories,createCategory, deleteCategory, getCategoryById, updateC
 
 const router = Router();
 
-router.get('/categoria', listCategories);
-router.get('/categoria/:id', getCategoryById);
-router.post('/categoria', createCategory);
-router.put('/categoria/:id', updateCategory);
-router.delete('/categoria/:id', deleteCategory);
+router.get('/category', listCategories);
+router.get('/category/:id', getCategoryById);
+router.post('/category', createCategory);
+router.put('/category/:id', updateCategory);
+router.delete('/category/:id', deleteCategory);
 
 export default router;

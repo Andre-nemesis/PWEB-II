@@ -6,8 +6,8 @@ export const getCategoryById = (req, res) => {
 
     const category = categoryRepository.getById(Number(id));
 
-    if (!product) {
-        return res.status(404).json({ error: "Product not found" });
+    if (!category) {
+        return res.status(404).json({ error: "Category not found" });
     }
 
     res.json(category);
