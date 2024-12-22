@@ -47,7 +47,7 @@ export const updateCategory = (req, res) => {
     const id  = parseInt(req.params.id);
     const {description} = req.body;
 
-    const updatedCategory = categoryRepository.update(id,description);
+    const updatedCategory = categoryRepository.update(id,{description});
 
     if(!updatedCategory){
         return res.status(404).json({ error: "Category not found" });

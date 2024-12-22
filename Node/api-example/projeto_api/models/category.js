@@ -24,7 +24,7 @@ class Category{
     }
 
     toString(){
-        return `Category(${this._id}, ${this._description})`;
+        return `Category(${this.id}, ${this.description})`;
     }
 }
 export default Category;

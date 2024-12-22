@@ -28,7 +28,7 @@ class CategoryRepository{
         const category = this.getById(id);
         if(!category) return null;
 
-        if(updatedData.name) category.description = updatedData.description;
+        if(updatedData.description) category.description = updatedData.description;
 
         return category;
     }
@@ -36,7 +36,7 @@ class CategoryRepository{
     delete(id){
         const index = this.categories.findIndex(c => c.id === id);
         if(index === -1) return null;
-        return this.categories.slice(index,1)[0];
+        return this.categories.splice(index,1)[0];
     }
 }
 

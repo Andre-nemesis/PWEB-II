@@ -1,6 +1,6 @@
 import express from 'express';
-import router from './routes/CategoryRoutes.js';
-//import productRoutes from '../projeto_api/routes/productRoutes.js';
+import router from '../projeto_api/routes/categoryRoutes.js';
+//import router from '../projeto_api/routes/productRoutes.js';
 
 const app = express();
 

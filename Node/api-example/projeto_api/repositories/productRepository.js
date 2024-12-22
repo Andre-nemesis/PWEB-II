@@ -39,7 +39,7 @@ class ProductRepository{
     delete(id){
         const index = this.products.findIndex(p => p.id === id);
         if(index === -1) return null;
-        return this.products.slice(index,1)[0];
+        return this.products.splice(index,1)[0];
     }
 }
 
